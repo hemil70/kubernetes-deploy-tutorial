@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: flask-test-app
-        image: gcr.io/hcl-pipeline/github.com/hemil70/kubernetes-deploy-tutorial@sha256:v1
+        image: gcr.io/hcl-pipeline/github.com/hemil70/kubernetes-deploy-tutorial:v1
         imagePullPolicy: IfNotPresent
